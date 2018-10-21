@@ -24,6 +24,7 @@ h1{
     background-color: aliceblue;
     max-width: 658px;
     border-style: solid;
+    text-align: center;
     
 
 }
@@ -49,11 +50,12 @@ border: 3px;
 border-style: solid;
 border-color: darkred;
 opacity: 1.0;
+}
 
-
-
-
-
+img.placesimage {
+    position: relative;
+    left: 50px;
+    
 }
 
 div.map a:visited, a:link {
@@ -146,6 +148,36 @@ ul.options a:hover, a:active  {
     color: black;
 }
 
+h1.place {
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    color: darkred;
+    background-color: aliceblue;
+    max-width: 1200px;
+    border-style: solid;
+    text-align: center;
+}
+
+h2.place {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    color: darkred;
+    background-color: aliceblue;
+    max-width: 1200px;
+    border-style: solid;
+    text-align: center;
+}
+
+p.placedescription {
+    font-style: normal;
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    max-width: 1200px;
+    border-style: solid;
+    
+}
+
 
 
 div#contact {
@@ -162,5 +194,37 @@ div#contact {
     background-color: aliceblue;
     background-image: url("email.jpeg");
     
+}
+
+#contact a:hover, a:active {
+    color: black;
+    background-color: aliceblue;
+}
+
+#contact a:visited, a:link {
+    color: darkred;
+}
+
+div.back {
+   
+    margin-right: auto 150px;
+    max-width: 300px;
+    font-size: 50px;
+    position: relative;
+    color: darkred;
+    text-anchor: end;
+    border-style: solid;
+    background-color: aliceblue;
+    background-image: url("back.png");
+    
+}
+
+div.back a:hover, a:active {
+    color: black;
+    background-image: url("back.png");
+}
+
+div.back a:visited, a:link {
+    color: darkred;
 }
 
