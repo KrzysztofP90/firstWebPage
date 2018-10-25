@@ -1,27 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<title>HOLIDAY IN BULGARIA</title>
-<link rel="stylesheet"  href= "style.css" type="text/css">
-<meta charset="utf-8"/>
-<meta name="author" content="Krzysztof Przybylowicz" />
-<meta name="robots" content="index,follow"/>
-<meta name="keywords" content="Bulgaria,holiday,sunny beach,balkan,nessebar,holidays,travel"/>
-<meta name="description" content="holiday in bulgaria,travel to bulgaria"/>
+    <title>HOLIDAY IN BULGARIA</title>
+    <link rel="stylesheet"  href= "style.css" type="text/css">
+    <meta charset="utf-8"/>
+    <meta name="author" content="Krzysztof Przybylowicz" />
+    <meta name="robots" content="index,follow"/>
+    <meta name="keywords" content="Bulgaria,holiday,sunny beach,balkan,nessebar,holidays,travel"/>
+    <meta name="description" content="holiday in bulgaria,travel to bulgaria"/>
+    
+    
+    
 </head>
-<body>
 
- 
+<body onload="checkIfBoxesAreFill()">
 
-    <div id="contact">
-        <pre> Contact </pre>
-    </div>
+<div class="back-from-message">
+    <a href="file:///home/k/codecool/Web/OwnPage/index.html" >back to main site</a>
+</div>
+    
 
+<div id="contactsheet">
+    <form name="contact" onsubmit ="return false">
+        <label name=contactlabel> Name:</label> <input type="text" id="name" ><br>
+        <label name=contactlabel>E-mail:</label> <input type="text" id="email" ><br>
+        <label name=contactlabelmessage>Your Message:</label><br>
+        <textarea id="message"></textarea><br>
+        <button  id="submit-button" value="Submit" type="submit"><p>Submit</p></button>
+    </form>
+</div>
 
-
-
-
-
+<script src='js/mail.js'> type="text/javascript"</script> 
 
 </body>
+
 </html>

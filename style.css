@@ -1,6 +1,6 @@
 body {
     
-    background-image: url("blacksea.jpg");
+    background-image: url("image/blacksea.jpg");
     background-attachment: fixed;
     opacity: 0.8;
    
@@ -192,7 +192,7 @@ div#contact {
     border-style: solid;
     top: 500px;
     background-color: aliceblue;
-    background-image: url("email.jpeg");
+    background-image: url("image/email.jpeg");
     
 }
 
@@ -215,16 +215,98 @@ div.back {
     text-anchor: end;
     border-style: solid;
     background-color: aliceblue;
-    background-image: url("back.png");
+    background-image: url("image/back.png");
     
 }
 
 div.back a:hover, a:active {
     color: black;
-    background-image: url("back.png");
+    background-image: url("image/back.png");
 }
 
 div.back a:visited, a:link {
     color: darkred;
 }
+
+
+label[name=contactlabel] {
+    color: darkred;
+    background-color: aliceblue;
+
+}
+
+label[name="contactlabel"], input#name, input#email {
+    position: relative;
+    top: 120px;
+    height: 15px;
+    width: 400px;
+    border: solid;
+    border: darkred;
+    color: darkred;
+    background-color: aliceblue;
+    
+    
+}
+
+label[name="contactlabelmessage"] {
+    position: relative;
+    top: 150px;
+    height: 15px;
+    width: 400px;
+    border: solid;
+    border: darkred;
+    color: darkred;
+    background-color: aliceblue;
+    
+    
+}
+button#submit-button {
+    position: relative;
+    top: 180px;
+    height: 60px;
+    left: 400px;
+    width: 100px;
+    cursor: pointer;
+} 
+
+button#submit-button:disabled {
+    cursor: not-allowed; 
+}
+
+textarea#message {
+    position: relative;
+    top: 180px;
+    height: 200px;
+    
+    width: 500px;
+    border: solid;
+    border: darkred;
+    color: darkred;
+    background-color: aliceblue;
+}
+
+div.back-from-message {
+    position: relative;
+    top:30px;
+    margin-right: auto 150px;
+    max-width: 300px;
+    font-size: 50px;
+    position: relative;
+    color: darkred;
+    text-anchor: end;
+    border-style: solid;
+    background-color: aliceblue;
+    background-image: url("image/back.png");
+    
+}
+
+div.back-from-message a:hover, a:active {
+    color: black;
+    background-image: url("image/back.png");
+}
+
+div.-from-message a:visited, a:link {
+    color: darkred;
+}
+
 
